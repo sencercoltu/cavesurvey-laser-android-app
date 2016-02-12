@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    >
+    <TextView
+        android:id="@+id/survey_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="start|center_vertical"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:text="Deneme 1 32 43 5 6"/>
+
+    <Button
+        android:id="@+id/survey_load"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="start|center_vertical"
+        android:focusable="false"
+        android:text="Load" />
+
+    <Button
+        android:id="@+id/survey_info"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="start|center_vertical"
+        android:focusable="false"
+        android:text="Info"        />
+
+    <Button
+        android:id="@+id/survey_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="start|center_vertical"
+        android:focusable="false"
+        android:text="Delete"/>
+
+</LinearLayout>

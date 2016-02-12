@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/survey_menu"
+        android:title="Surveys" >
+        <menu>
+            <item android:id="@+id/new_survey"
+                android:title="New..." />
+            <item android:id="@+id/load_survey"
+                android:title="Manage..." />
+        </menu>
+    </item>
+    <item android:id="@+id/settings_menu"
+        android:title="Settings" >
+        <menu>
+            <group android:checkableBehavior="all">
+                <item android:id="@+id/external_service"
+                    android:checkable="true"
+                    android:title="Use external data service" />
+                <item android:id="@+id/extend_display"
+                    android:checkable="true"
+                    android:title="Extend display"
+                    />
+            </group>
+            <item android:id="@+id/hide_columns"
+                android:title="Columns Visibility">
+                <menu>
+                    <group android:checkableBehavior="all">
+                        <item android:id="@+id/hide_from"
+                            android:checkable="true"
+                            android:title="From" />
+                        <item android:id="@+id/hide_to"
+                            android:checkable="true"
+                            android:title="To" />
+                        <item android:id="@+id/hide_dist"
+                            android:checkable="true"
+                            android:title="Distance" />
+                        <item android:id="@+id/hide_comp"
+                            android:checkable="true"
+                            android:title="Bearing" />
+                        <item android:id="@+id/hide_inc"
+                            android:checkable="true"
+                            android:title="Inclination" />
+                        <item android:id="@+id/hide_bar"
+                            android:checkable="true"
+                            android:title="Barometer" />
+                        <item android:id="@+id/hide_temp"
+                            android:checkable="true"
+                            android:title="Temp" />
+                        <item android:id="@+id/hide_type"
+                            android:checkable="true"
+                            android:title="Type" />
+                        <item android:id="@+id/hide_time"
+                            android:checkable="true"
+                            android:title="Time" />
+                    </group>
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

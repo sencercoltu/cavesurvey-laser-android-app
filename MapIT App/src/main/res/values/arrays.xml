@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="shot_types">
+        <item>Main</item>
+        <item>Wall</item>
+        <item>Branch</item>
+    </string-array>
+
+    <string-array name="reverse_types">
+        <item>Straight</item>
+        <item>Reverse</item>
+    </string-array>
+</resources>

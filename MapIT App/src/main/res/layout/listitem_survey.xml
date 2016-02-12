@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/survey_data_from"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="FROM"/>
+
+    <TextView
+        android:id="@+id/survey_data_to"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="TO"/>
+
+    <TextView
+        android:id="@+id/survey_data_distance"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="DIST"/>
+
+    <TextView
+        android:id="@+id/survey_data_bearing"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="COMP"/>
+
+    <TextView
+        android:id="@+id/survey_data_inclination"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="INC"/>
+
+    <TextView
+        android:id="@+id/survey_data_barometer"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="BAR"/>
+
+    <TextView
+        android:id="@+id/survey_data_temperature"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="TEMP"/>
+
+    <TextView
+        android:id="@+id/survey_data_type"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="TYPE"/>
+
+    <TextView
+        android:id="@+id/survey_data_time"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="TIME"/>
+    </LinearLayout>

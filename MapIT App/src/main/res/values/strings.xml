@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">MapIT</string>
+    <string name="device_data">net.speleomaniac.mapit.DATA</string>
+    <string name="device_dataservice">net.speleomaniac.mapit.DATASERVICE</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="settings">Settings</string>
+    <string name="manual_input_only">Manual input only</string>
+    <string name="application_menu">Menu</string>
+
+</resources>

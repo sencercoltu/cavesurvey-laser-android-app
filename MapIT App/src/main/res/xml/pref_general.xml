@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="prefs_input_method"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="prefs_maximize"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="prefs_hidefrom"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="prefs_hideto"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="prefs_hidedist"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="prefs_hidecomp"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="prefs_hideinc"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="prefs_hidebar"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="prefs_hidetemp"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="prefs_hidetype"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="prefs_hidetime"
+        android:defaultValue="true" />
+</PreferenceScreen>

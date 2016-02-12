@@ -1,0 +1,9 @@
+<resources>
+    <style name="MyAppTheme" parent="Theme.AppCompat">
+    </style>
+
+    <style name="AppTheme" parent="@style/MyAppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

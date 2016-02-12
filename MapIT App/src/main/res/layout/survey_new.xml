@@ -1,0 +1,15 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/survey_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Enter survey name"
+        android:textSize="@dimen/abc_text_size_body_1_material"/>
+</RelativeLayout>
